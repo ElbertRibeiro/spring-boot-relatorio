@@ -29,6 +29,18 @@
 			<artifactId>pdfbox</artifactId>
 			<version>2.0.27</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox-tools</artifactId>
+			<version>2.0.27</version>
+		</dependency>
+
+		<!-- Dependência do Apache Commons IO -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.10.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
