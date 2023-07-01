@@ -17,11 +17,8 @@ public class PdfController {
 
     @GetMapping(value = "/report", produces = MediaType.APPLICATION_PDF_VALUE)
     public ResponseEntity<InputStreamResource> generatePdfReport() throws IOException {
-
-
         HttpHeaders headers = new HttpHeaders();
         headers.add(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=relatorio.pdf");
-
         return ResponseEntity
                 .ok()
                 .headers(headers)
